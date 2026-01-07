@@ -28,13 +28,10 @@ export async function ProjectPreview({ project } : PreviewProps) {
                     <div className="flex flex-col">
                         <span className="text-sm font-medium text-foreground">{project.tags}</span>
                         <span className="text-xs text-muted"> 
-                            <Button>
-                                <Link href={project.git}>
-                                    GitHub
-                                </Link>
-                            </Button>
+                            <Link href={project.git}>
+                                GitHub
+                            </Link>
                         </span>
-                        <img src="/github.svg" alt="GitHub" className="w-5 h-5" />
                     </div>
                     <Link href={`/projects/${project.slug}`}>
                         <Button variant="ghost" className="border border-pink-500 rounded-md w-full sm:w-auto">Check it out</Button>

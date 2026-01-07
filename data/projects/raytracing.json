@@ -4,5 +4,17 @@
   "short_description": "This is Vulkan-based rendering engine that renders images fully with GPU-accelerated raytracing. It is based on the pbrt-renderer and implements a microfacet-BRDF, several variance reduction techniques and basic editor funtionality.",
   "preview_image": "/raytracing/preview.png",
   "git": "https://github.com/arabbitplays/Vulkan-Raytracing",
-  "tags": "C++, Vulkan, Rendering"
+  "tags": "C++, Vulkan, Rendering",
+  "tldr": [
+        "GPU-accelerated raytracing",
+        "microfacet-BSDF shading",
+        "Importance Sampling + Russian Roulette"
+    ],
+  "introduction": "TODO",
+  "description": "TODO",
+  "technologies": [
+        "C++",
+        "Vulkan"
+  ],
+  "images": [ "/raytracing/preview.png"]
 }

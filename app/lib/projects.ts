@@ -8,6 +8,11 @@ export type ProjectData = {
     preview_image: string
     git: string
     tags: string
+    tldr: string[]
+    introduction: string
+    description: string
+    technologies: string[]
+    images: string[]
 }
 
 const projects_dir = path.join(process.cwd(), 'data/projects')

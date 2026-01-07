@@ -4,5 +4,17 @@
   "short_description": "This is a lightweight, Notcurses-based TUI application for tracking daily tasks, viewing statistics, and maintaining streaks.",
   "preview_image": "/gamify/preview.png",
   "git": "https://github.com/arabbitplays/Gamify-Life",
-  "tags": "C++, TUI, PostgreSQL"
+  "tags": "C++, TUI, PostgreSQL",
+  "tldr": [
+        "terminal-based UI with Notcurses",
+        "vim-like key binding",
+        "persisted and configurable tasks"
+    ],
+  "introduction": "TODO",
+  "description": "TODO",
+  "technologies": [
+        "C++",
+        "PostgreSQL"
+  ],
+  "images": []
 }
