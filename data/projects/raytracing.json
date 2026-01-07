@@ -1,0 +1,8 @@
+{
+  "slug": "raytracing",
+  "title": "Vulkan Raytracing Engine",
+  "short_description": "This is Vulkan-based rendering engine that renders images fully with GPU-accelerated raytracing. It is based on the pbrt-renderer and implements a microfacet-BRDF, several variance reduction techniques and basic editor funtionality.",
+  "preview_image": "/raytracing/preview.png",
+  "git": "https://github.com/arabbitplays/Vulkan-Raytracing",
+  "tags": "C++, Vulkan, Rendering"
+}

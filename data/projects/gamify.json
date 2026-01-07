@@ -1,0 +1,8 @@
+{
+  "slug": "gamify",
+  "title": "Gamify Life",
+  "short_description": "This is a lightweight, Notcurses-based TUI application for tracking daily tasks, viewing statistics, and maintaining streaks.",
+  "preview_image": "/gamify/preview.png",
+  "git": "https://github.com/arabbitplays/Gamify-Life",
+  "tags": "C++, TUI, PostgreSQL"
+}
