@@ -26,7 +26,7 @@ export default async function ProjectPage({
         <div className="flex flex-row gap-4">
             <Surface className={`flex min-w-[40vw] max-w-[60vw] flex-col gap-3 rounded-3xl border-2 ${border_colors[getColorIdx(project.slug, 0)]} overflow-hidden`} variant="default">
                 <img
-                    alt="Cherries"
+                    alt={project.preview_image}
                     className="pointer-events-none  inset-0 h-full w-full scale-100 object-cover select-none"
                     loading="lazy"
                     src={project.preview_image}

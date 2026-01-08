@@ -1,4 +1,5 @@
 import { getProject, ProjectData } from "@/lib/projects";
+import { border_colors, getColorIdx } from "@/lib/colors";
 import {Button, Card, CloseButton} from "@heroui/react";
 import Link from 'next/link'
 
@@ -34,7 +35,7 @@ export async function ProjectPreview({ project } : PreviewProps) {
                         </span>
                     </div>
                     <Link href={`/projects/${project.slug}`}>
-                        <Button variant="ghost" className="border border-pink-500 rounded-md w-full sm:w-auto">Check it out</Button>
+                        <Button variant="ghost" className={`border ${border_colors[getColorIdx(project.slug, 0)]} rounded-md w-full sm:w-auto`}>Check it out</Button>
                     </Link>
                 </Card.Footer>
             </div>
